@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AQT Products App
 
-## Getting Started
+A simple yet robust Next.js application for managing products with full CRUD operations. This project was built as a coding task for the React/Next.js Developer position at AQTAR. It integrates the [Fake Store API](https://fakestoreapi.com/) to showcase proficiency in building full-stack applications using modern web technologies.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Product Listing**: View all products with their titles, prices, and images on the homepage.
+- **Product Details**: Access detailed information for each product with options to edit or delete.
+- **Create Product**: Add new products through a user-friendly form.
+- **Edit Product**: Update existing product details with pre-filled form data.
+- **Delete Product**: Remove products from the list.
+- **Responsive Design**: Styled with Tailwind CSS for a clean and modern UI across devices.
+- **SEO Optimization**: Enhanced metadata using `next/head` for better search engine visibility.
+- **Image Optimization**: Uses `next/image` for efficient image loading.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **Framework**: Next.js (Pages Router)
+- **Frontend**: React with TypeScript
+- **Styling**: Tailwind CSS
+- **API**: Fake Store API (RESTful)
+- **Data Fetching**: `getServerSideProps` for server-side rendering
+- **Deployment**: Vercel (optional)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Setup Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+Ensure you have the following installed:
+- **Node.js** (v16 or higher)
+- **npm** (v7 or higher)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abdallayasseer/products-app.git
+   cd my-products-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app in your browser:**
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+---
+
+## 📧 Contact
+
+For any inquiries, reach out at [abdallayasser091@gmail.com](mailto:abdallayasser091@gmail.com).
+
